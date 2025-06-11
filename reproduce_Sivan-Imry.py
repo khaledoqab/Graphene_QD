@@ -3,6 +3,13 @@ import matplotlib.pyplot as plt
 import kwant
 from types import SimpleNamespace
 
+"""Sivan, Imry and Hartzstein.
+This code reproduces the results of Sivan, Imry and Hartzstein's work
+"Aharonov-Bohm and quanutm Hall effects in singly connected quantum dots"
+Reference:
+Sivan, U., Imry, Y. and Hartzstein, C., 1989. Aharonov-Bohm and quantum Hall effects in singly connected quantum dots. Physical Review B, 39(2), p.1242.
+"""
+
 # Define the square lattice
 lat = kwant.lattice.square(a=1.0, norbs=1)
 
